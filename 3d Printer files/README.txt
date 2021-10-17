@@ -1,0 +1,1 @@
+Scale base for load cell by majaczech on Thingiverse: https://www.thingiverse.com/thing:4330707
