@@ -1,0 +1,2 @@
+# Weight-Measurement-system
+A load cell measures the weight using strain gauges. The difference between the length of the load cell at one side of the cell will help in determining the weight that is applied to it. This will change the output impedance.  The output impedance is integrated into a Wheatstone bridge where the difference of the output impedance determines and controls the output voltage of the circuit.
