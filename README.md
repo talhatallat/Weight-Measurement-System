@@ -1,4 +1,4 @@
-# Weight Measurement System Using LoadCell 
+# Weight Measurement System Using LoadCell <a href="https://dt021a-3.wixsite.com/website/about/" target= "_blank" >View Project</a> 
 
 This project uses Arduino Nano which was programmed to measure the weight accurately when the load is applied to the load cell.
 
