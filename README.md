@@ -2,7 +2,7 @@
 
 This project uses Arduino Nano which was programmed to measure the weight accurately when the load is applied to the load cell.
 
-### Load Cell 
+## Load Cell 
 
 A load cell measures the weight using strain gauges. The difference between the length of the load cell at one side of the cell will help in determining the weight that is applied to it. This will change the output impedance.  
 The output impedance is integrated into a Wheatstone bridge where the difference of the output impedance determines and controls the output voltage of the circuit.
@@ -17,11 +17,11 @@ The load sensor is placed between two 3d printed design plates to measure the lo
 
 *This models were created by Thingiverse user majaczech, and is licensed under cc.*
 
-### Block Diagram
+## Block Diagram
 
 ![image](https://user-images.githubusercontent.com/73076876/137648375-917eb388-096d-4ec2-8731-41f1f0d639b2.png)
 
-### Project Instructions
+## Project Instructions
 
 <ul>
 <li>Apply weight to the load cell</li>
@@ -33,15 +33,15 @@ The load sensor is placed between two 3d printed design plates to measure the lo
 <li>The digital units are then rescaled to be converted into mass (kg)</li>
 </ul>
 
-### Wheatstone Bridge
+## Wheatstone Bridge
 
 ![image](https://user-images.githubusercontent.com/73076876/137648509-397a6368-b471-4d39-8e20-c60abc677a48.png)
 
-### Circuit diagram of OP-AMP
+## Circuit diagram of OP-AMP
 
 ![image](https://user-images.githubusercontent.com/73076876/137648521-88b1e346-ea8f-46be-9434-76f7011b2f22.png)
 
-### Circuit Calculations & Breakdown
+## Circuit Calculations & Breakdown
 
 The circuit shown above is a differential operational amplifier to amplify the signal with a gain of 555.5. Where the gain of the op-amp depends on the feedback resistors (Rf/R1) = (1000000/1800) = 555.5.
 The input voltages are voltages from the load cell in a Wheatstone bridge configuration (green wire +V) & (White wire -V). The load cell has a minimum output impedance of 900 ohms and a maximum output impedance of 1100 ohms.
@@ -56,15 +56,15 @@ Example:
 
 The Vobridge is theoretical however, the Voamp is calculated that's why there is a 0.2V error
 
-### Rescale
+## Rescale
 
 ![Capture](https://user-images.githubusercontent.com/73076876/137648622-cf45065b-b7a4-4e8e-8055-5356e44b7fef.JPG)
 
 The A/D values were taken on the Excel sheet for varying load applied to the load cell to find the values for the equation line. Where Y is values read from the load cell. 
 X = Y - 22.5 / 0.3495
 
-### Construction
+## Construction
 
 ![image](https://user-images.githubusercontent.com/73076876/137648666-72271fa1-3e5b-451f-a2f7-d0472b3afe3a.png)
 
-### <a href="https://dt021a-3.wixsite.com/website/about/" target= "_blank" >View Project</a>
+## <a href="https://dt021a-3.wixsite.com/website/about/" target= "_blank" >View Project</a>
