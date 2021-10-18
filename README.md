@@ -21,15 +21,21 @@ The load sensor is placed between two 3d printed design plates to measure the lo
 
 ![image](https://user-images.githubusercontent.com/73076876/137648375-917eb388-096d-4ec2-8731-41f1f0d639b2.png)
 
-**Project instructions**
+# Project Instructions
 
-Step 1: Apply weight to the load cell
-Step 2: Length of bar will change and that will effect the strain gauge
-Step 3: The change in the strain gauge will vary the resistance
-Step 4: As the resistance of the four strain gauges vary the output of the Wheatstone bridge will vary accordingly
-Step 5: The output from the Wheatstone bridge will be amplified using a differential amplifier
-Step 6: The output of the operational amplifier is inputted into an analogue to digital converter (Arduino Nano) which converts the voltage into digital units (DU)
-Step 7: The digital units are then rescaled to be converted into mass (kg)
+        * Step 1: Apply weight to the load cell
+
+        * Step 2: Length of bar will change and that will effect the strain gauge
+
+        * Step 3: The change in the strain gauge will vary the resistance
+
+        * Step 4: As the resistance of the four strain gauges vary the output of the Wheatstone bridge will vary accordingly
+
+        * Step 5: The output from the Wheatstone bridge will be amplified using a differential amplifier
+
+        * Step 6: The output of the operational amplifier is inputted into an analogue to digital converter (Arduino Nano) which converts the voltage into digital units (DU)
+
+        * Step 7: The digital units are then rescaled to be converted into mass (kg)
 
 # Wheatstone Bridge
 
